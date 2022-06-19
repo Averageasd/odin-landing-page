@@ -1,0 +1,32 @@
+body{
+    height:100vh;
+    background-color: black;
+}
+
+
+.nav-bar{
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding-left:32px;
+    padding-right:32px;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.header-logo, a{
+    font-size: 18px;
+    color:#E5E7EB;
+
+}
